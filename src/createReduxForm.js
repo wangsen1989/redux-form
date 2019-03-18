@@ -240,6 +240,7 @@ export type Props = {
   setSubmitSucceeded: SetSubmitSucceededAction,
   shouldAsyncValidate: ShouldAsyncValidateFunction,
   shouldValidate: ShouldValidateFunction,
+  shouldValidIgnoreRegisterCount: boolean,
   shouldError: ShouldErrorFunction,
   shouldWarn: ShouldWarnFunction,
   startAsyncValidation: StartAsyncValidationAction,
